@@ -13,28 +13,24 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+h4 {
     color: #4a148c;
 }
-h4 {
-    color: red;
-}
-p{
-    max-width: 700px; text-align: justify"
+
+mark {
+    background-color: #ffeb3b;
+    padding: 3px 6px;
+    border-radius: 4px;
 }
 
-img {
-    border-radius: 10px;
-    box-shadow: 0 0 10px #aaa;
-    margin: 10px 0;
-}
 
 table {
     border-collapse: collapse;
     width: 60%;
     background-color: white;
     box-shadow: 0 0 5px #ccc;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 td {
@@ -48,6 +44,7 @@ td:hover {
     background-color: #f3e5f5;
     transition: 0.3s;
 }
+
 form {
     margin: 20px 0;
     background-color: white;
@@ -55,41 +52,15 @@ form {
     width: 300px;
     border-radius: 10px;
     box-shadow: 0 0 8px #ccc;
+
 }
+
 label {
     display: inline-block;
     width: 90px;
     text-align: right;
 }
-input[type='text'],
-input[type='password'] {
-    padding: 5px;
-    border: 1px solid #bbb;
-    border-radius: 5px;
-    outline: none;
-    width: 150px;
-}
 
-input[type='text']:focus,
-input[type='password']:focus {
-    border-color: #7b1fa2;
-    box-shadow: 0 0 4px #7b1fa2;
-}
-input[type='submit'],
-input[type='reset'] {
-    background-color: #7b1fa2;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    padding: 8px 12px;
-    margin: 5px;
-    font-weight: bold;
-}
-
-input[type='submit']:hover,
-input[type='reset']:hover {
-    background-color: #4a148c;
-}
 
 a {
     text-decoration: none;
@@ -112,39 +83,68 @@ hr {
     width: 80%;
     margin: 10px auto;
 }
- footer{
+
+.divNav:hover {
+    background-color: #e1bee7;
+
+    transition: 0.3s;
+
+}
+
+.divNav {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ccc;
+    height: 100px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+footer {
     background-color: #fafafa;
     margin-top: auto;
     margin-left: 144px;
     margin-right: 144px;
-    padding-top: 40px ;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
-.footer-container{
-    display:flex;
+
+.footer-container {
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
-.footer-column h3{
+
+.footer-column h3 {
     margin-bottom: 10px;
-    font-size:20px ;
+    font-size: 20px;
     font-weight: normal;
     color: purple;
 }
-.footer-column p{
-    font-size:20px;
+
+.footer-column p {
+    font-size: 20px;
     margin: 16px;
     cursor: pointer;
 }
-.footer-column p:hover{
+
+.footer-column p:hover {
     text-decoration: underline;
 }
-.footer-bottom{
+
+.footer-bottom {
     text-align: center;
-    font-size:14px;
-    border-top:1px solid #333 ;
-    padding-top:10px ;
-    
+    font-size: 14px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
 }
 
+.divNav a {
+    color: black;
+    margin-top: -13px;
+    margin-bottom: 19px;
+    font-size: large;
+}

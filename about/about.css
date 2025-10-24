@@ -1,0 +1,50 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    color: #6f299a;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+p {
+    color: #4a148c;
+    line-height: 1.6;
+    width: 80%;
+    margin: 20px auto;
+}
+
+hr {
+    border: 1px solid #ce93d8;
+    width: 90%;
+}
+
+i {
+    font-size: 18px;
+}
+
+.divNav a {
+    color: black;
+    margin-top: -13px;
+    margin-bottom: 19px;
+    font-size: large;
+}
+
+.divNav {
+
+    border-radius: 10px;
+    box-shadow: 0 0 5px #ccc;
+    height: 100px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divNav:hover {
+    background-color: #e1bee7;
+
+    transition: 0.3s;
+
+}
